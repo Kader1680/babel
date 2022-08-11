@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <h2>this push problem</h2>
+      <h2>this push problem</h2>
     </div>
   );
 }
