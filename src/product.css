@@ -1,30 +1,29 @@
-.btn{
-    background-color: gray;
-}
-.btn.actv{
-    background-color: green;
-}
-.Product_Blog{
-    /* background-color: #5c5a5a; */
-    color: black;
-}
 .global{
     color: black;
 }
-
+.data button{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    width: 9rem;
+    border: none;
+    background-color: #5ec772;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
 @media(max-width:767px){
     .slider_product .slide {
         width: 100%;
         opacity: .8;
     
     }
-    .global{
-        width: 65%;
+    .global {
+        width: 94%;
         display: grid;
-        grid-template-columns: 76% 28%;
+        grid-template-columns: 100%;
     }
-    .global .products{
-        margin: 40px 0px;
+    .global .products {
+        margin: 40px auto;
     }
     .global .products .kind{
         width: 11rem;

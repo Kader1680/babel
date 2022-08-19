@@ -41,6 +41,9 @@
     nav .list{
         display: none;
     }
+    .list.block{
+        display: block;
+    }
     .list ul{
         list-style: none;
     }

@@ -24,7 +24,11 @@ import k from '../src/img/k.png'
 
 function Product() {
 
-   
+   const [Buy, SetBuy] = useState('Buy')
+   function done() {
+      SetBuy('Done')
+   }
+
    return(
 
       
@@ -55,7 +59,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /> </span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
 
@@ -68,7 +72,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -80,7 +84,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
@@ -93,7 +97,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -105,7 +109,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
@@ -118,7 +122,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
@@ -131,7 +135,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
@@ -144,7 +148,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
@@ -157,7 +161,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -169,7 +173,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -181,7 +185,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -193,7 +197,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -205,7 +209,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -217,7 +221,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
@@ -229,7 +233,7 @@ function Product() {
                            <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                           <button onClick={done}><span>{Buy}</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                </div>
