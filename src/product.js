@@ -1,12 +1,12 @@
 import './product.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import {faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import {faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 
 
-
+import { useState } from 'react';
 import React from "react";
 import slide from '../src/img/slide.png';
 import a from '../src/img/a.png'
@@ -24,6 +24,7 @@ import k from '../src/img/k.png'
 
 function Product() {
 
+   
    return(
 
       
@@ -31,6 +32,8 @@ function Product() {
       <div class="Product_Blog" >
          
          
+
+      
 
             <div class="slider_product">
                <div class="txt">
@@ -45,159 +48,188 @@ function Product() {
                <div class='global'>
                <div class="products">
                         <div class="kind">
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                            <img src={b} class='a' alt='a' />
                         </div>  
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping} /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
-                           <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <span><FontAwesomeIcon icon={faThumbsUp} /> </span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
 
                      <div class="products">
                         <div class="kind">
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                            <img src={b} class='a' alt='a' />
                         </div>  
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
+                        <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                            <img src={c} class='a' alt='a' />
                         </div>  
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
                      <div class="products">
                         <div class="kind">
-                                 <img src={d} class='a' alt='a' />
-                              </div> 
-                        <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
-                           <p>14.55 $</p>
-                           <span><FontAwesomeIcon icon={faThumbsUp} /></span>
-                        </div>
-                     </div>
-                     <div class="products">
-                        <div class="kind">
-                              <img src={e} class='a' alt='a' />
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
+                           <img src={d} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
+                        </div>
+                     </div>
+                     <div class="products">
+                        <div class="kind">
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
+                           <img src={e} class='a' alt='a' />
+                        </div> 
+                        <div class='data'>
+                           <span>Monitor</span>
+                           <p>14.55 $</p>
+                           <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
                      <div class="products">
                         <div class="kind">
+                        <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                                  <img src={f} class='a' alt='a' />
                               </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
                      <div class="products">
                         <div class="kind">
+                        <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                               <img src={g} class='a' alt='a' />
                         </div>  
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
                      <div class="products">
-                        
                         <div class="kind">
-                              <img src={h} class='a' alt='a' />
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
+                           <img src={h} class='a' alt='a' />
                         </div>  
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
 
                      </div>
                      <div class="products">
                         <div class="kind">
-                              <img src={i} class='a' alt='a' />
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
+                           <img src={i} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
-                              <img src={j} class='a' alt='a' />
+                           <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
+                           <img src={j} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
+                              <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                               <img src={k} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
+                              <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                               <img src={h} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
+                              <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                               <img src={b} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
+                              <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                               <img src={f} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                      <div class="products">
                         <div class="kind">
+                              <span class='heart'><FontAwesomeIcon icon={faHeart} /></span>
                               <img src={e} class='a' alt='a' />
                         </div> 
                         <div class='data'>
-                           <span>Monitor</span><span><FontAwesomeIcon icon={faCartShopping } /></span>
+                           <span>Monitor</span>
                            <p>14.55 $</p>
                            <span><FontAwesomeIcon icon={faThumbsUp} /></span>
+                           <button><span>Buy</span><span><FontAwesomeIcon icon={faShoppingCart}/></span></button>
                         </div>
                      </div>
                </div>

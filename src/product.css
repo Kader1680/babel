@@ -1,10 +1,17 @@
+.btn{
+    background-color: gray;
+}
+.btn.actv{
+    background-color: green;
+}
 .Product_Blog{
-    background-color: #5c5a5a;
+    /* background-color: #5c5a5a; */
+    color: black;
 }
 .global{
-    
-    color: white;
+    color: black;
 }
+
 @media(max-width:767px){
     .slider_product .slide {
         width: 100%;
@@ -21,11 +28,27 @@
     }
     .global .products .kind{
         width: 11rem;
-        height: 18rem;
+        height: 15rem;
+        position: relative;
     }
+    .global .products .kind .heart{
+        float: right;
+        right: 0;
+        margin: 5px;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 84, 84);
+        background-color: #c6c6c6;
+        border: 1px solid rgb(255, 84, 84);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
     .global .products .kind img{
         width: 11rem;
-        height: 18rem;
+        height: 15rem;
         background-color: #c6c6c6;
         border-radius: 8px 8px 0px 0px;
         border: 1px solid #c6c6c6;
@@ -36,19 +59,14 @@
         -ms-transition: 1s;
         -o-transition: 1s;
     }
-    /* .global .products .kind img:hover{
-        width: 12rem;
-        height: 17rem;
-        margin-left: 5px;
-    } */
     .products .data{
         width: 11rem;
         border: 1px solid #c6c6c6;
         border-radius: 0px 0px 8px 8px;
         border-top: 0;
         display: grid;
-        padding: 10px 20px;
-        grid-template-columns: 86% 14%;
+        padding: 25px 20px;
+        grid-template-columns: 47% 49% 50%;
     }
     .data .b1{
         
@@ -98,10 +116,57 @@
     .txt p{
 
     }
-.global {
-    display: grid;
-    grid-template-columns: 32% 32% 16%;
-    margin-left: -1rem;
+    .global {
+        
+        width: 40rem;
+        display: grid;
+        grid-template-columns: 32% 32% 16%;
+        margin: 0px auto;
+    }
+    .global .products{
+        margin: 40px 0px;
+    }
+    .global .products .kind{
+        width: 11rem;
+        height: 15rem;
+        position: relative;
+    }
+    .global .products .kind .heart{
+        float: right;
+        right: 0;
+        margin: 5px;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 84, 84);
+        background-color: #c6c6c6;
+        border: 1px solid rgb(255, 84, 84);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+    .global .products .kind img{
+        width: 11rem;
+        height: 15rem;
+        background-color: #c6c6c6;
+        border-radius: 8px 8px 0px 0px;
+        border: 1px solid #c6c6c6;
+        border-bottom: none;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    .products .data{
+        width: 11rem;
+        border: 1px solid #c6c6c6;
+        border-radius: 0px 0px 8px 8px;
+        border-top: 0;
+        display: grid;
+        padding: 25px 20px;
+        grid-template-columns: 47% 49% 50%;
     }
 }
 @media(min-width:991px){
@@ -120,8 +185,54 @@
 
     .global{
         display: grid;
-        grid-template-columns: 25% 25% 25% 8%;
-        margin-left: -3rem;
+        grid-template-columns: 31% 31% 31% 4%;
+        width: 40rem;
+        margin: 0px 8rem;
+    }
+    .global .products{
+        margin: 40px 0px;
+    }
+    .global .products .kind{
+        width: 11rem;
+        height: 15rem;
+        position: relative;
+    }
+    .global .products .kind .heart{
+        float: right;
+        right: 0;
+        margin: 5px;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 84, 84);
+        background-color: #c6c6c6;
+        border: 1px solid rgb(255, 84, 84);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+    .global .products .kind img{
+        width: 11rem;
+        height: 15rem;
+        background-color: #c6c6c6;
+        border-radius: 8px 8px 0px 0px;
+        border: 1px solid #c6c6c6;
+        border-bottom: none;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    .products .data{
+        width: 11rem;
+        border: 1px solid #c6c6c6;
+        border-radius: 0px 0px 8px 8px;
+        border-top: 0;
+        display: grid;
+        padding: 25px 20px;
+        grid-template-columns: 47% 49% 50%;
     }
 
 }
@@ -139,9 +250,9 @@
 
 }
     .global {
-    /* display: grid;
-    grid-template-columns: 30% 33% 35%; */
-    margin: 2rem;
+    display: grid;
+    grid-template-columns: 31% 31% 31% 4%;
+    margin: 0px 16rem;
     }
 
 }
@@ -160,18 +271,50 @@
 }
 
  
-
-.global{
-    
+.global .products{
+    margin: 40px 0px;
 }
-.kind{
-    width: 14rem;
-    height: 12rem;
+.global .products .kind{
+    width: 11rem;
+    height: 15rem;
+    position: relative;
 }
-.data .like{
-    margin-left: 15px;
-    color: red;
-    font-size: 20px;
+.global .products .kind .heart{
+    float: right;
+    right: 0;
+    margin: 5px;
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 84, 84);
+    background-color: #c6c6c6;
+    border: 1px solid rgb(255, 84, 84);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.global .products .kind img{
+    width: 11rem;
+    height: 15rem;
+    background-color: #c6c6c6;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #c6c6c6;
+    border-bottom: none;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.products .data{
+    width: 11rem;
+    border: 1px solid #c6c6c6;
+    border-radius: 0px 0px 8px 8px;
+    border-top: 0;
+    display: grid;
+    padding: 25px 20px;
+    grid-template-columns: 47% 49% 50%;
 }
 
 
