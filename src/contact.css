@@ -1,0 +1,218 @@
+@media(max-width:767px){
+    .square{
+        
+    }
+    .square .form{
+        
+    }
+    .form form {
+        margin: 0px 40px;
+     }
+     
+     .form form input {
+        width: 97%;
+        height: 2.3rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+        padding: 0px 20px;
+     }
+     
+    .form form textarea{
+        width: 98%;
+        height: 10rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+    }
+    .form button{
+        border: none;
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #f33f3f;
+        color: white;
+        font-size: 0.9rem;
+        margin-left: 39px;
+        margin-top: 0.5rem; 
+    }
+    .square  .info{
+        color: #726196;
+        margin: 0px 1rem;
+    }
+    .info h3{
+        color: #f33f3f;
+        line-height: 55px;
+    }
+    .info p{
+        margin-bottom: 1rem;
+    }
+    .info a{
+    
+    }
+}
+@media(min-width:768px){
+    .square{
+        
+    }
+    .square .form{
+        
+    }
+    .form form {
+        margin: 0px 41px;
+     }
+     
+     .form form input {
+        width: 97%;
+        height: 2.3rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+        padding: 0px 20px;
+     }
+     
+    .form form textarea{
+        width: 97%;
+        height: 10rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+    }
+    .form button{
+        border: none;
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #f33f3f;
+        color: white;
+        font-size: 0.9rem;
+        margin-left: 39px;
+        margin-top: 0.5rem; 
+    }
+    .square  .info{
+        color: #726196;
+        margin: 0px 1rem;
+    }
+    .info h3{
+        color: #f33f3f;
+        line-height: 55px;
+    }
+    .info p{
+        margin-bottom: 1rem;
+    }
+    .info a{
+    
+    }
+}
+@media(min-width:991px){
+    .square{
+        display: grid;
+        grid-template-columns: 57% 31%;
+    }
+    .square .form{
+        
+    }
+    .form form {
+        margin: 0px 41px;
+     }
+     
+     .form form input {
+        width: 97%;
+        height: 2.3rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+        padding: 0px 20px;
+     }
+     
+    .form form textarea{
+        width: 97%;
+        height: 10rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+    }
+    .form button{
+        border: none;
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #f33f3f;
+        color: white;
+        font-size: 0.9rem;
+        margin-left: 39px;
+        margin-top: 0.5rem; 
+    }
+    .square  .info{
+        color: #726196;
+        margin: 0px 1rem;
+    }
+    .info h3{
+        color: #f33f3f;
+        line-height: 55px;
+    }
+    .info p{
+        margin-bottom: 1rem;
+    }
+    .info a{
+    
+    }
+} 
+@media(min-width:991px){
+    
+}
+@media(min-width:1199px){
+    .square{
+        display: grid;
+        grid-template-columns: 57% 31%;
+    }
+    .square .form{
+        
+    }
+    .form form{
+        width: 60rem;
+        margin: 0px 125px;
+    
+        
+    }
+    .form form input{
+        width: 40%;
+        height: 2.3rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+    }
+    .form form textarea{
+        width: 40%;
+        height: 10rem;
+        border: 1px solid #cbc9c9;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+    }
+    .form button{
+        border: none;
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #f33f3f;
+        color: white;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin: 0px 125px; 
+    }
+    .square  .info{
+        color: #726196;
+    }
+    .info h3{
+        color: #f33f3f;
+        line-height: 55px;
+    }
+    .info p{
+        margin-bottom: 1rem;
+    }
+    .info a{
+    
+    }
+}
+
+
+
+
+
+

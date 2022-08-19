@@ -1,0 +1,177 @@
+.Product_Blog{
+    background-color: #5c5a5a;
+}
+.global{
+    
+    color: white;
+}
+@media(max-width:767px){
+    .slider_product .slide {
+        width: 100%;
+        opacity: .8;
+    
+    }
+    .global{
+        width: 65%;
+        display: grid;
+        grid-template-columns: 76% 28%;
+    }
+    .global .products{
+        margin: 40px 0px;
+    }
+    .global .products .kind{
+        width: 11rem;
+        height: 18rem;
+    }
+    .global .products .kind img{
+        width: 11rem;
+        height: 18rem;
+        background-color: #c6c6c6;
+        border-radius: 8px 8px 0px 0px;
+        border: 1px solid #c6c6c6;
+        border-bottom: none;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    /* .global .products .kind img:hover{
+        width: 12rem;
+        height: 17rem;
+        margin-left: 5px;
+    } */
+    .products .data{
+        width: 11rem;
+        border: 1px solid #c6c6c6;
+        border-radius: 0px 0px 8px 8px;
+        border-top: 0;
+        display: grid;
+        padding: 10px 20px;
+        grid-template-columns: 86% 14%;
+    }
+    .data .b1{
+        
+    }
+    .data .b2{
+        
+    }
+    .txt h2{
+    }
+    .txt p{
+        color:red;
+    }
+    .slider_product .txt {
+        position: absolute;
+        text-align: center;
+        color: white;
+        z-index: 2;
+    }
+}
+
+/* @media(max-width:767px){
+    .slider_product .slide {
+        
+    }
+    .slider_product .txt {
+        margin: 60px 97px;
+    }
+    .txt h2{
+
+    }
+    .txt p{
+
+    }
+} */
+@media(min-width:768px){
+    .slider_product .slide {
+        height: 25rem;
+    }
+    .slider_product .txt {
+        font-size: 1.8rem;
+        margin: 11rem 14rem;
+
+    }
+    .txt h2{
+        
+    }
+    .txt p{
+
+    }
+.global {
+    display: grid;
+    grid-template-columns: 32% 32% 16%;
+    margin-left: -1rem;
+    }
+}
+@media(min-width:991px){
+    .slider_product .slide {
+        height: 25rem;
+    }
+    .slider_product .txt {
+        margin: 9rem 22rem;
+    }
+    .txt h2{
+        
+    }
+    .txt p{
+
+    }
+
+    .global{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 8%;
+        margin-left: -3rem;
+    }
+
+}
+@media(min-width:1199px){
+    .slider_product .slide {
+        height: 30rem;
+    }
+    .slider_product .txt {
+        margin: 10rem 30rem;
+    }
+    .txt h2{
+        
+    }
+    .txt p{
+
+}
+    .global {
+    /* display: grid;
+    grid-template-columns: 30% 33% 35%; */
+    margin: 2rem;
+    }
+
+}
+.slider_product .txt {
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 2;
+ }
+ 
+.txt h2{
+    
+}
+.txt p{
+    
+}
+
+ 
+
+.global{
+    
+}
+.kind{
+    width: 14rem;
+    height: 12rem;
+}
+.data .like{
+    margin-left: 15px;
+    color: red;
+    font-size: 20px;
+}
+
+
