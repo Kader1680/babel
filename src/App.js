@@ -26,7 +26,7 @@ function App() {
 
           <Route path='' element={<Home/>} />
           
-          <Route path='/product' element={<Product/>} />
+          <Route path='../src/product.js' element={<Product/>} />
           <Route path='/contact' element={<Contact/>} />
 
         </Routes>
