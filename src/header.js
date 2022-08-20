@@ -6,13 +6,13 @@ import {faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
 
-    const [list, lstvisble] = useState(false)
+    const [list, lblock] = useState(false)
 
     function LIST() {
-        lstvisble(list => !list)
+        lblock(list => !list)
     }
 
-    let toggle = list ? ' .block' : null;
+    let toggle = list ? ' active': '';
 
 
 

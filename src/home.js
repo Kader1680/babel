@@ -1,10 +1,10 @@
 import './home.css'
 import React from "react";
-import PublicationHome from './img/PublicationHome.jpg';
+import pub_1 from '../src/img/pub-1.jpg';
 function Home() {
     return(
         <div>
-            <img src={PublicationHome} alt="" />
+            <img src={pub_1} alt="" />
             <h2> Welcome to Page </h2>
             
         </div>
