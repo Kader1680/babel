@@ -1,7 +1,8 @@
+import React from "react";
 import { useState } from 'react';
+import {Link} from 'react-router-dom';
 import './header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
@@ -17,6 +18,7 @@ function Header() {
 
 
     return(
+        
         <nav>
             
             <div class="logo">
@@ -24,10 +26,12 @@ function Header() {
             </div>
             <div class = {`list${toggle}`} >
                 <ul>
-                    <li><a href='/BABEL/bibal/src/home'>Home</a></li>
-                    <li><a href='/BABEL/bibal/src/product'>Product</a></li>
-                    <li><a href='/BABEL/bibal/src/about'>About</a></li>
-                    <li><a href='/BABEL/bibal/src/contact'>Contact</a></li>
+
+                    <li><Link exact to='/home'>Home</Link></li>
+                    
+                    <li><Link to='/product'>Product</Link></li>
+                    <li><Link to='/about'>about</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                     
                 </ul>
             </div>
@@ -40,5 +44,5 @@ function Header() {
 }
 
 
-export default Header;
+export default Header
 

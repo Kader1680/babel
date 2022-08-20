@@ -49,13 +49,13 @@ transform: translateX(-15px);
 -ms-transition: 1s;
 -o-transition: 1s;
 }
-.list.active ul li a{
+.list.active ul li Link{
     text-decoration: none;
     color: #6e6d7a;
 }
 
 
-.list ul li a{
+.list ul li Link{
     color: #ffffff;
     text-decoration: none;
 }
