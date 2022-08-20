@@ -21,11 +21,11 @@ function App() {
 
         <Routes>
 
-              <Route path='/bibal/src/home' element={<Home/>} />
+              <Route path='/BABEL/bibal/src/home' element={<Home/>} />
               
-              <Route path='/bibal/src/about' element={<About/>} />
-              <Route path='/bibal/src/product' element={<Product/>} />
-              <Route path='/bibal/src/contact' element={<Contact/>} /> 
+              <Route path='/BABEL/bibal/src/about' element={<About/>} />
+              <Route path='/BABEL/bibal/src/product' element={<Product/>} />
+              <Route path='/BABEL/bibal/src/contact' element={<Contact/>} /> 
 
         </Routes>
         
