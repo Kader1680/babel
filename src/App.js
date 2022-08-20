@@ -2,7 +2,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './home';
-// import About from './about';
+import About from './about';
 import Header from './header';
 import Product from './product';
 import Contact from './contact';
@@ -12,24 +12,24 @@ function App() {
   return (
     
 
-    // <div>
-      
-    //   <Header />
-    // </div>
-
+    
 
 
     <Router>
+
         <Header/>
-        
+
         <Routes>
 
-          <Route path='' element={<Home/>} />
-          
-          <Route path='../src/product.js' element={<Product/>} />
-          <Route path='/contact' element={<Contact/>} />
+              <Route path='' element={<Home/>} />
+              
+              <Route path='/about' element={<About/>} />
+              <Route path='/product' element={<Product/>} />
+              <Route path='/contact' element={<Contact/>} /> 
 
         </Routes>
+        
+        
         
         
 
@@ -46,4 +46,3 @@ function App() {
 }
 
 export default App;
-{/* <Route path='/about' element={<About/>} /> */}
