@@ -11,6 +11,22 @@
     border-radius: 3px;
     margin-top: 1rem;
 }
+.global .products .kind .heart{
+    float: right;
+    right: 0;
+    bottom: 12px;
+    margin: 5px;
+    position: absolute;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 @media(max-width:767px){
     .slider_product .slide {
         width: 100%;
@@ -20,7 +36,7 @@
     .global {
         width: 94%;
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 54% 50%;
     }
     .global .products {
         margin: 40px auto;
@@ -30,27 +46,13 @@
         height: 15rem;
         position: relative;
     }
-    .global .products .kind .heart{
-        float: right;
-        right: 0;
-        margin: 5px;
-        position: absolute;
-        padding: 5px;
-        color: rgb(255, 84, 84);
-        background-color: #c6c6c6;
-        border: 1px solid rgb(255, 84, 84);
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-}
+    
     .global .products .kind img{
         width: 11rem;
         height: 15rem;
-        background-color: #c6c6c6;
+        background-color: #f2f2f2;
         border-radius: 8px 8px 0px 0px;
-        border: 1px solid #c6c6c6;
+        border: 1px solid #f2f2f2;
         border-bottom: none;
         transition: 1s;
         -webkit-transition: 1s;
@@ -60,7 +62,7 @@
     }
     .products .data{
         width: 11rem;
-        border: 1px solid #c6c6c6;
+        border: 1px solid #f2f2f2;
         border-radius: 0px 0px 8px 8px;
         border-top: 0;
         display: grid;
@@ -130,27 +132,13 @@
         height: 15rem;
         position: relative;
     }
-    .global .products .kind .heart{
-        float: right;
-        right: 0;
-        margin: 5px;
-        position: absolute;
-        padding: 5px;
-        color: rgb(255, 84, 84);
-        background-color: #c6c6c6;
-        border: 1px solid rgb(255, 84, 84);
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-}
+    
     .global .products .kind img{
         width: 11rem;
         height: 15rem;
-        background-color: #c6c6c6;
+        background-color: #f2f2f2;
         border-radius: 8px 8px 0px 0px;
-        border: 1px solid #c6c6c6;
+        border: 1px solid #f2f2f2;
         border-bottom: none;
         transition: 1s;
         -webkit-transition: 1s;
@@ -160,7 +148,7 @@
     }
     .products .data{
         width: 11rem;
-        border: 1px solid #c6c6c6;
+        border: 1px solid #f2f2f2;
         border-radius: 0px 0px 8px 8px;
         border-top: 0;
         display: grid;
@@ -196,27 +184,12 @@
         height: 15rem;
         position: relative;
     }
-    .global .products .kind .heart{
-        float: right;
-        right: 0;
-        margin: 5px;
-        position: absolute;
-        padding: 5px;
-        color: rgb(255, 84, 84);
-        background-color: #c6c6c6;
-        border: 1px solid rgb(255, 84, 84);
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-}
     .global .products .kind img{
         width: 11rem;
         height: 15rem;
-        background-color: #c6c6c6;
+        background-color: #f2f2f2;
         border-radius: 8px 8px 0px 0px;
-        border: 1px solid #c6c6c6;
+        border: 1px solid #f2f2f2;
         border-bottom: none;
         transition: 1s;
         -webkit-transition: 1s;
@@ -226,7 +199,7 @@
     }
     .products .data{
         width: 11rem;
-        border: 1px solid #c6c6c6;
+        border: 1px solid #f2f2f2;
         border-radius: 0px 0px 8px 8px;
         border-top: 0;
         display: grid;
@@ -278,27 +251,12 @@
     height: 15rem;
     position: relative;
 }
-.global .products .kind .heart{
-    float: right;
-    right: 0;
-    margin: 5px;
-    position: absolute;
-    padding: 5px;
-    color: rgb(255, 84, 84);
-    background-color: #c6c6c6;
-    border: 1px solid rgb(255, 84, 84);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
 .global .products .kind img{
     width: 11rem;
     height: 15rem;
-    background-color: #c6c6c6;
+    background-color: #f2f2f2;
     border-radius: 8px 8px 0px 0px;
-    border: 1px solid #c6c6c6;
+    border: 1px solid #f2f2f2;
     border-bottom: none;
     transition: 1s;
     -webkit-transition: 1s;
@@ -308,7 +266,7 @@
 }
 .products .data{
     width: 11rem;
-    border: 1px solid #c6c6c6;
+    border: 1px solid #f2f2f2;
     border-radius: 0px 0px 8px 8px;
     border-top: 0;
     display: grid;

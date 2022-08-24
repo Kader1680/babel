@@ -6,6 +6,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
+    
+    // <button>+</button>
+    // <button>-</button>
+    // <span></span>
+
 
     const [list, lblock] = useState(false)
 
@@ -14,7 +19,14 @@ function Header() {
     }
 
     let toggle = list ? ' active': '';
+    
+    // const [show, hidden] = useState(false)
 
+    // function Hid(params) {
+    //     hidden(show => !show)
+    // }
+
+    // let none = show ? ' none'
 
 
     return(
@@ -27,11 +39,11 @@ function Header() {
             <div class = {`list${toggle}`} >
                 <ul>
 
-                    <li><Link exact to='/home'>Home</Link></li>
+                    <li><Link class="link" exact to='/home'>Home</Link></li>
                     
-                    <li><Link to='/product'>Product</Link></li>
-                    <li><Link to='/about'>about</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><Link class="link" to='/product'>Product</Link></li>
+                    <li><Link class="link" to='/about'>about</Link></li>
+                    <li><Link class="link" to='/contact'>Contact</Link></li>
                     
                 </ul>
             </div>

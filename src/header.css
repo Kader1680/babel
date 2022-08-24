@@ -3,6 +3,7 @@ nav .list{
 }
 nav .list.active{
     display: block;
+    margin-top: 11px;
 }
 .list.active{
     background-color: #ffffff;
@@ -49,13 +50,13 @@ transform: translateX(-15px);
 -ms-transition: 1s;
 -o-transition: 1s;
 }
-.list.active ul li Link{
+.list.active ul li .link{
     text-decoration: none;
     color: #6e6d7a;
 }
 
 
-.list ul li Link{
+.list ul li .link{
     color: #ffffff;
     text-decoration: none;
 }

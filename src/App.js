@@ -1,7 +1,6 @@
 import React from "react";
 import './App.css';
-import {BrowserRouter as  Router, Routes, Route, Switch} from 'react-router-dom';
-// import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter as  Router, Routes, Route} from 'react-router-dom';
 import Home from './home';
 import About from './about';
 import Header from './header';
@@ -11,55 +10,16 @@ import Contact from './contact';
 
 function App() {
   return (
-    
 
-    
-    
-    // <BrowserRouter>
-
-    //       <Header/>
-    //       <Route path='/home' element={<Home/>} />
-
-    //       <Route path='/about' element={<About/>} />
-    //       <Route path='/product' element={<Product/>} />
-    //       <Route path='/contact' element={<Contact/>} /> 
-    
-    // </BrowserRouter>
-    
-
-        
-        
-  
     <Router>
-
-        <p>hhhhhhhhhhhhhhhh</p>
-
         <Header/>
-        
               <Routes>
-
-                  <Route path='/home' element={<Home/>} />
-
+                  <Route path='/' element={<Home/>} />
                   <Route path='/about' element={<About/>} />
                   <Route path='/product' element={<Product/>} />
                   <Route path='/contact' element={<Contact/>} /> 
-
-                  
-
               </Routes>
-
     </Router>
-        
-        
-
-
-    
-
-    
-
-        
-
-    
     
   );
 }
