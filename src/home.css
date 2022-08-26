@@ -2,15 +2,45 @@ div img{
     width: 100%;
     
 }
-@media(max-width=767px){
-    button{
+@media (max-width:767px) {
+    body{
+        text-align: center;
+    }
+    .squre{
+        text-align: start;
+        padding: 1px 30px;
+    }
+    h3{
+        font-size: 22px;
+        margin: 10px 0px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    ul{
+        list-style: square;
+        margin: 10px 20px;
+
+    }
+    ul li{
+
+    }
+    .note{
+        background-color: #d6d6d6;
+        margin: 10px 20px;
+        padding: 20px 30px;
+    
+    }
+    .note button{
         display: flex;
         justify-content: space-around;
         padding: 10px 0px;
-        width: 9rem;
+        width: 14rem;
         border: none;
         background-color: #5ec772;
         border-radius: 3px;
         margin-top: 1rem;
+        margin-left: 15px;
     }
 }
