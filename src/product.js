@@ -1,7 +1,6 @@
 import './product.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-// import {faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 
@@ -9,7 +8,6 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { useState } from 'react';
 import React from "react";
 import pub_2 from '../src/img/pub-2.jpg';
-import a from '../src/img/a.png'
 import b from '../src/img/b.png'
 import c from '../src/img/c.png'
 import d from '../src/img/d.png'
@@ -40,10 +38,6 @@ function Product() {
       
 
             <div class="slider_product">
-               <div class="txt">
-                  <p>NEW ARRIVALS</p>
-                  <h2>BEST PRODUCT</h2>
-               </div>
                <img src={pub_2} class='slide'/>
             </div>
 

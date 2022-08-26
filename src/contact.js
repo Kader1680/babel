@@ -1,13 +1,12 @@
 import './contact.css'
 import React from "react";
 
-import login from '../src/img/login.jpg';
 
 function Contact() {
     return(
         <div class="contact">
             <div class='wall_contact'>
-                <img src = {login}/>
+                
             </div>
             <div class='square'>
                 <div class="form">
