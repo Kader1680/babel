@@ -1,0 +1,22 @@
+.basket{
+    background-color: aqua;
+    width: 22rem;
+    position: absolute;
+    z-index: 1;
+    float: right;
+    right: 0;
+}
+.basket header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h3{
+    
+}
+header .btn{
+    
+}
+.basket .footer{
+
+}
