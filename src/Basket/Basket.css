@@ -1,15 +1,20 @@
-.basket{
+/* .basket{
     background-color: aqua;
-    width: 22rem;
-    position: absolute;
+    width: 25rem;
+    position: fixed;
     z-index: 1;
     float: right;
     right: 0;
+    height: 100%;
+    display: none;
 }
 .basket header{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.basket .mybasket{
+    height: 9rem;
 }
 header h3{
     
@@ -19,4 +24,4 @@ header .btn{
 }
 .basket .footer{
 
-}
+} */

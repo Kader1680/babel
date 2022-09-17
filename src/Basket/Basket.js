@@ -9,12 +9,18 @@ export default class Basket extends React.Component{
         return(
             <div class='basket'>
                 <header>
+
                     <h3>My Basket</h3>
                     <div className="btn">
                         <button>Close</button>
                         <button>Clear Basket</button>
                     </div>
+
+
                 </header>
+                <div className="mybasket">
+
+                </div>
                 <div className="footer">
                     <span>0 $</span>
                     <button>CHERK OUT</button>
