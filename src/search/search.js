@@ -7,7 +7,8 @@ function Search() {
 
     const [RmvBasket, addBasket] = useState(false);
 
-    
+
+
     return(
         <div>
             <div class="wrap">
