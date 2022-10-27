@@ -1,21 +1,23 @@
 import React from "react";
-import './App.css';
-import {BrowserRouter as  Router, Routes, Route} from 'react-router-dom';
-import Home from './home';
+// import './App.css';
+// import {BrowserRouter as  Router, Routes, Route} from 'react-router-dom';
+import Navbar from "./navbar/navbar";
+import Footer from "./footer/footer";
+import Product from "./product/product";
+import Slider from "./slider/slider";
 
-import About from './about';
-import Header from './header';
-import Product from './product';
-import Contact from './contact';
-import Footer from './footer/footer';
-import Search from "./search/search";
-import Basket from "./Basket/Basket";
 
 function App() {
   return (
 
     <div>
-      <Router>
+    
+      <Navbar />
+      <Slider />
+      <Product />
+
+      <Footer />
+      {/* <Router>
       
       
         <Header/>
@@ -30,7 +32,7 @@ function App() {
         </Routes>
         
       </Router>
-      <Footer />
+      <Footer /> */}
     </div>
     
     
