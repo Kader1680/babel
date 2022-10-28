@@ -19,7 +19,7 @@ export default function Categorie() {
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="category-card">
-                        <a href="">
+                        <a href="/categorie/computer">
                             <div class="category-card-img">
                                 <img src={c1} class="w-100" alt="Laptop" />
                             </div>
@@ -35,7 +35,7 @@ export default function Categorie() {
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="category-card">
-                        <a href="">
+                        <a href="/categorie/hardware">
                             <div class="category-card-img">
                                 <img src={c2} class="w-100" alt="Mobile Devices" />
                             </div>
