@@ -39,6 +39,8 @@
     font-size: 15px;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     .main-navbar .top-navbar .nav-link{
         font-size: 12px;
